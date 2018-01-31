@@ -41,26 +41,26 @@ public class SolveMaze {
                 continue;
             }
             else {
-                turnRight();
-                if (canMove == true) {
-                    move();
-                    Continue;
+                maze.turnRight();
+                if (maze.canMove == true) {
+                    maze.move();
+                    continue;
                 }
                 else {
-                    turnleft();
-                    If (canMove == true) {
-                        move();
-                        Continue;
+                    maze.turnleft();
+                    If (maze.canMove == true) {
+                        maze.move();
+                        continue;
                     }
                   else {
-                        turnleft();
-                        move();
-                        Continue;
-                        Else {
-                            turnleft
-                            If (canMove == true) {
-                                move();
-                                Continue;
+                        maze.turnleft();
+                        maze.move();
+                        continue;
+                        else {
+                            maze.turnleft
+                            If (maze.canMove == true) {
+                                maze.move();
+                                continue;
 
                             }
                         }
